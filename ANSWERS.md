@@ -202,7 +202,7 @@ Deploy the sample site https://thanosjs.org/ with Netlify Drop. What Netlify sub
 
 Add the following features:
 
-* Add a <code/> block that shows the visitor's IP address ("Your IP address is
+* Add a `<code/>` block that shows the visitor's IP address ("Your IP address is
 xxx.xxx.xxx.xxx, click for details") above the "Installation Section". You are
 allowed to make use of fetch (we don't care behavior on Internet Explorer,
 so don't worry about polyfill) and https://api.ipify.org/. Link this element (in
