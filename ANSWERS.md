@@ -1,4 +1,4 @@
-### Q0
+# Q0
 
 Fred is our co-founder and co-CEO. List all the pages in `www.necktie.com.hk` that
 contain the name "Fred" as visible text (but not in source code only), and
@@ -21,7 +21,7 @@ outline how did you come up with the list.
 
 Methods: Google search `site:necktie.com.hk fred` 
 
-### Q1
+# Q1
 
 Figure out as many tools that power www.necktie.com.hk as you could. Hint: We
 are using TWO CMS in our marketing sites)
@@ -85,7 +85,7 @@ are using TWO CMS in our marketing sites)
 *Web Hosting Providers*
 1. Amazon
 
-### Q2
+# Q2
 
 Try to list as much sub-domains under the domain `necktie.com.hk` as you can.
 
@@ -157,7 +157,7 @@ Try to list as much sub-domains under the domain `necktie.com.hk` as you can.
 1. webflow.necktie.com.hk
 1. www.webflow.necktie.com.hk
 
-### Q3
+# Q3
 
 Name all the tracking tools / services that necktie is using on `www.necktie.com.hk`
 
@@ -177,7 +177,7 @@ Name all the tracking tools / services that necktie is using on `www.necktie.com
 
 **Answer**
 
-### Q4
+# Q4
 
 Name three types of Structured Data(The SEO one, not those normal data structures like trees or queues you learn in school) tha necktie is using on its pages.
 
@@ -186,6 +186,35 @@ Name three types of Structured Data(The SEO one, not those normal data structure
 1. Twitter Cards By Netcraft.com
 1. Open Graph By Netcraft.com
 
-### Q5
+# Q5
+
+Accoording to the pdf
 
 **Answer**
+
+Assume domain.com only have `root index.html` file and `/rikako/index.html` file
+
+Robots.txt is a text file with instructions for search engine crawlers. Inside the robots.txt, it does not allow all user agent to crawl /rikako.This means that when we try to search `https://domain.com/rikako`, it only will display `https://domain.com/` as the only search record because googlebot will enumerate all the index of the website (except /rikako)
+
+# Q6
+
+Deploy the sample site https://thanosjs.org/ with Netlify Drop. What Netlify sub-domain to use is up to you.
+
+Add the following features:
+
+* Add a <code/> block that shows the visitor's IP address ("Your IP address is
+xxx.xxx.xxx.xxx, click for details") above the "Installation Section". You are
+allowed to make use of fetch (we don't care behavior on Internet Explorer,
+so don't worry about polyfill) and https://api.ipify.org/. Link this element (in
+new tab) to a 3rd party website that can show some basic information
+about that IP address.
+
+* Install Google Analytics on this static site. Fire a event with { action =
+element-clicked, category = "code", label = text inside the `<code/>` block }
+whenever a `<code/>` element is clicked, but DO NOT fire any events if the
+`<code/>` block that you created in the previous feature.
+
+You are also allowed to embed jQuery (any version) in the HTML file for above
+features.
+
+Netlify Drop URL : ( update later )
