@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160755229-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160755229-1');
+    </script>
+    <meta charset="UTF-8" />
+    <title>Thanos JS</title>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A demo site to use with Netlify Drop">
+    <meta name="keywords" content="Thanos, JavaScript, Paradoy, Netlify Drop">
+    <meta name="author" content="Rafael Conde">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+    </script> 
+    <script type="text/javascript" src="example.js"></script>
+  </head>
+  <body>
+    <div class="titan-background">
+      <span class="stars stars-L"></span>
+      <span class="stars stars-M"></span>
+      <span class="stars stars-S"></span>
+    </div>
+    <div class="marvellous-container">
+      <div class="header">
+        <h1><span class="title-marvel">Thanos</span> <span class="title-studios">JS</span></h1>
+        <h2>
+          Reduce the file size of your project down to 50%, <br />
+          by randomly deleting half of the files.
+        </h2>
+      </div>
+      <code id="ip"><a href="https://www.geeksforgeeks.org/">Fetching</a></code>
+      <div class="installation-instructions">
+        <h3>Installation</h3>
+        <code onclick="clickedFunction( '$ gem install power' )">$ gem install power</code>
+        <code onclick="clickedFunction( '$ gem install reality' )">$ gem install reality</code>
+        <code onclick="clickedFunction( '$ gem install mind' )">$ gem install mind</code>
+        <code onclick="clickedFunction( '$ gem install space' )">$ gem install space</code>
+        <code onclick="clickedFunction( '$ gem install time' )">$ gem install time</code>
+        <code onclick="clickedFunction( '$ gem install soul' )">$ gem install soul</code>
+      </div>
+      <div class="usage-instructions">
+        <h3>Basic Usage</h3>
+        <code onclick="clickedFunction( '$ thanos snap-fingers --with-glove' )">$ thanos snap-fingers --with-glove</code>
+      </div>
+      <div class="footer">
+        <img src="assets/glove.png" alt="thanos gauntlet but its like the classic emoji hands with an awful photoshop of stupid gems on it, because funny"/>
+        <p>
+          This whole site is obviously a parody, <br />
+          just to demo how awesome <a target="_blank" href="https://app.netlify.com/drop">Netlify Drop is — give it a try.</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
