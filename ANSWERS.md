@@ -217,4 +217,4 @@ whenever a `<code/>` element is clicked, but DO NOT fire any events if the
 You are also allowed to embed jQuery (any version) in the HTML file for above
 features.
 
-Netlify Drop URL : ( update later )
+Netlify Drop URL : https://marcomak.netlify.com/
