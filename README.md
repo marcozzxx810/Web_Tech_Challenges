@@ -1,2 +1,2 @@
-# Growth-Engineer-Technical-Challenge
+Web_Tech_Challenges
 Internal use
