@@ -14,7 +14,7 @@ $( document ).ready(function() {
     function(data) { 
         ip = data.ip
         test = document.getElementById("ip");
-        htmltext = "Your IP address is " + data.ip + ", " + '<a href=https://ip-api.com/#' + data.ip + '>click for details</a>'
+        htmltext = "Your IP address is " + data.ip + ", " + '<a href=https://ip-api.com/#' + data.ip + ' target="_blank" >click for details</a>'
         
         test.innerHTML = htmltext;
     }) 
