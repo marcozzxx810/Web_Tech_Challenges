@@ -222,6 +222,8 @@ Netlify Drop URL : https://marcomak.netlify.com/
 Better implementation of google analytics:
 `
 /*
+
+
 $("code").click(function(){
     alert(this.innerHTML);
 
@@ -239,5 +241,7 @@ $("code").click(function(){
 
 });
 */
+
+
 
 `
