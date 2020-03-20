@@ -221,27 +221,23 @@ Netlify Drop URL : https://marcomak.netlify.com/
 
 Better implementation of google analytics:
 `
-/*
 
 
-$("code").click(function(){
-    alert(this.innerHTML);
+	$("code").click(function(){
+   		 alert(this.innerHTML);
 
-	/*
-	if (this.innerHTML.substring(0,5) != "Your"){
-		ga($(this).html)
-	}
 	
-	OR
-
-	if (this.innerHTML.substring(0,1) == "$"){
+		if (this.innerHTML.substring(0,5) != "Your"){
 		ga($(this).html)
-	}
-	*/
+		}
+	
+		OR
 
-});
-*/
+		if (this.innerHTML.substring(0,1) == "$"){
+		ga($(this).html)
+		}
+	
 
-
+	});
 
 `
