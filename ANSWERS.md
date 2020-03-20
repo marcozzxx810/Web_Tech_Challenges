@@ -228,13 +228,13 @@ Better implementation of google analytics:
 
 	
 		if (this.innerHTML.substring(0,5) != "Your"){
-		ga($(this).html)
+		ga(this.innerHTML)
 		}
 	
 		OR
 
 		if (this.innerHTML.substring(0,1) == "$"){
-		ga($(this).html)
+		ga(this.innerHTML)
 		}
 	
 
